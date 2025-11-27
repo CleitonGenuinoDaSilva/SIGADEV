@@ -172,7 +172,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"code\": \"\",\n    \"filial\": \"\",\n    \"identifier\": \"\"\n}",
+							"raw": "{\n    \"code\": \"123456\",\n    \"filial\": \"04 0001\",\n    \"identifier\": \"393765195\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
