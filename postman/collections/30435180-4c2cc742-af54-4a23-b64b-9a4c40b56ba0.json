@@ -180,11 +180,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{EndPoint}}api/v4/otp/internal/validate",
+							"raw": "{{EndPoint}}/api/v4/otp/internal/validate",
 							"host": [
-								"{{EndPoint}}api"
+								"{{EndPoint}}"
 							],
 							"path": [
+								"api",
 								"v4",
 								"otp",
 								"internal",
