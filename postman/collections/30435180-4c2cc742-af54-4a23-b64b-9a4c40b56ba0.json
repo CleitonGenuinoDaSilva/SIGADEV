@@ -278,11 +278,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{EndPoint}}api/v4/otp/subs-antecipate-order",
+					"raw": "{{EndPoint}}/api/v4/otp/subs-antecipate-order",
 					"host": [
-						"{{EndPoint}}api"
+						"{{EndPoint}}"
 					],
 					"path": [
+						"api",
 						"v4",
 						"otp",
 						"subs-antecipate-order"
