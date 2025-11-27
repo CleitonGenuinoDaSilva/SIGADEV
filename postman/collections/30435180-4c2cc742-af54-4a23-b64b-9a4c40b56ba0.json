@@ -87,11 +87,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{EndPoint}}api/v4/otp/internal/pickup-order",
+							"raw": "{{EndPoint}}/api/v4/otp/internal/pickup-order",
 							"host": [
-								"{{EndPoint}}api"
+								"{{EndPoint}}"
 							],
 							"path": [
+								"api",
 								"v4",
 								"otp",
 								"internal",
