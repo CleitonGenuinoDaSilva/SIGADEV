@@ -295,6 +295,100 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "validate Copy",
+					"id": "30435180-8ce1adb9-a747-4078-b80b-9dedac5bd06d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept-Language",
+								"value": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Origin",
+								"value": "https://dev-ecommerce.labpetz.com.br"
+							},
+							{
+								"key": "Referer",
+								"value": "https://dev-ecommerce.labpetz.com.br/meu-cadastro"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36"
+							},
+							{
+								"key": "X-Authorization",
+								"value": "Bearer {{bearer}}"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Google Chrome\";v=\"141\", \"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"141\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"macOS\""
+							},
+							{
+								"key": "Cookie",
+								"value": "device_id=2031062733; yuno=mhca8e9n00fh2k5uo40k; _gcl_au=1.1.1712097392.1761759692; _hjSessionUser_257734=eyJpZCI6ImRlYmQ3Yjc4LTljNmEtNWFmMC1hZDZlLTMzZTkyZjUxMWY1OCIsImNyZWF0ZWQiOjE3NjE3NTk2OTE2NzksImV4aXN0aW5nIjp0cnVlfQ==; blueID=59f52a04-32b7-4af0-98e2-356057b69bd1; _fbp=fb.2.1761760304887.360922459505552669; OptanonAlertBoxClosed=2025-10-31T14:51:44.605Z; _gid=GA1.3.1610209883.1762256167; JSESSIONID=574358695EC6F9F897A680B4A37BD309; _hjSession_257734=eyJpZCI6ImNhZjVkNjU0LTRlYmItNDc2MC1hYjU5LWQ2YWNkNGNlYTdlOCIsImMiOjE3NjI0MzcxNzU2MjMsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MX0=; ajs_anonymous_id=5731e9f9-363e-4d24-a051-4757195e5889; _ga=GA1.1.576386125.1761759691; TOKEN_INFO=%7B%22access_token%22%3A%2277e7bda7af82f01ace4386893fa17398%22%2C%22refresh_token%22%3A%228c700377eb98be05ff313e300a4896ca%22%2C%22createdAt%22%3A%22Thu+Nov+06+10%3A56%3A25+GMT-03%3A00+2025%22%2C%22expires_in%22%3A5087867%7D; petzCliente=21297129; petzUserName=novo; TOKEN_ASM=eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhc20iLCJzdWIiOiJjZXNhcnRlc0BnbWFpbC5jb20iLCJncmFudHMiOltdLCJjZG0tY3VzdG9tZXItaWQiOiJlYzUzYjg1Yi1jNGFiLTQ4MWMtYjdjNy01ZjcwYTM0ZDNiMDgiLCJjZG0tZG9jdW1lbnQiOiIzOTQ3MzEzNzgwMCIsInRva2VuIjoiNmY2YmM0ZDAtODYxYi00NjQ4LWFjYmYtZTY3NDBmZjNhZGU3IiwiaWF0IjoxNzYyNDM3Mzk1LCJleHAiOjE3NjI1MjM3OTV9.RgqXmfao1Lc6Kk4gfSUwbWvNdRFWi6DkLTpDMoEfy9DGKeVwBbfpg_RhdriVM_dBT447qB-_0Uh25KBJTNlYrTMtiCrIXzIf0Sa01RxgifUgX_BEbYbQCTOZ1bDKwzCnsTdySOw8VZjQ80Bo_NCcZ89Hk6l4uiRSq5ww6ovdbL4hmQf3XO4A4XTjhuGGKTzXF2uY3kIk2TnSqNOkMt6OHHznXt59onkv5eDLpQcjUcIHHh0rqSPc5O9MvWAGXBw83WUo1fCyJ11ryo75TZvVtFxH9nEj09Ko4vhO79V0DXVJ0TSEOFH5Jf0-0R2vGbgfs6ybleAkv0mRgGqe9lZDcmo8awznRkiFySfsCMRca5FyMDsrdYUF7I8Ru92C_BCd6HTUo7-_F_QbxTkpqswHiU7y-xWUl_m4hCCOE75YNEje0RiQt89N5JWQMwDNhalD3iX-Aej4dmYenCwGS0xmO2WcKWOx9q0E6sJoFJgZ1ko9vZSyKvf9qsE6-SNtTfWS_5xclSb_Cr5Jdx343pEh-2ydyHVkOSgPK4vm0NbBGr-qp_87v_JIWIoKPkVTEkhk9aetW5gjfFpERMj7hi3jTdx-5IB1U4yihYFKXLXnGwkVPlMhLQtZC9DGEh980-zADCxoDo9Imos77g0TpGt-NUqsaJ1Wg3DIiKAmR0YajBY; petzPedido=700094023; _ga_JB2JHD7FCJ=GS2.1.s1762437180$o10$g1$t1762437400$j60$l0$h0; ajs_user_id=Mzk0NzMxMzc4MDA=; OptanonConsent=isGpcEnabled=0&datestamp=Thu+Nov+06+2025+10%3A56%3A40+GMT-0300+(Brasilia+Standard+Time)&version=202404.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=2d2d0ed0-0627-49b3-b642-09f2f3434117&interactionCount=2&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0003%3A1%2CC0002%3A1%2CC0004%3A1&intType=1&geolocation=BR%3BSP&AwaitingReconsent=false; cto_bundle=n4WXx19UcmcxMHBpVnJ0U0RlMDE1a2MxcFpuVDlJZU0xJTJGenBIYklld2wwM2hHdTlWZnJuVGdYR05leXJKeHFlcExSRkh2RkwwcjhsMXRrcml4THFLRjlEUlRRRVlVeUYlMkJpWiUyQkl5azJGT2MweTNVeDM2MnRtSjBGUlZMU01zcmdxM1RMT0s3VHNEREZkaGxPbjFMVGJPMG5WRjhBYWo0JTJGNWJvdE10SzJTZE50VVJ2TkNBYmNZbjElMkI5TmY3JTJGbDhRYTFaSW90eG1XcUlkUW5GSVNLVHlzYmRFSFFtTlk2Z2VBVVVQTmtxbTVWZEF0c2F5MlclMkYyZW5jeG5YUnREd1FoJTJCajFIeWlkVzZZTlFXZWxYYnVQZDZBdG9CUU1pdmJSVDNwaHc1aWNOY1llZEdHdEklMkZNJTJCTEZsRHYzaFZ5R2kxemdselZiSXhXSHFrazFVQVhDMmdqZExnemclMkJHQzRibnB2TVN3NFhseWd2VG13ZXU4JTNE; ab.storage.sessionId.366fe242-c969-42d6-8504-62feab34deda=%7B%22g%22%3A%2229072b11-3d36-2e15-0117-f22a689a8aa9%22%2C%22e%22%3A1762437431674%2C%22c%22%3A1762437400902%2C%22l%22%3A1762437401674%7D; JSESSIONID=56CF227BA294B59507B689F57F294249; JSESSIONID=0CF0DE92F764458C6AF602B5AE45F677"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code\": \"867558\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{EndPoint}}/api/v4/otp/subs-antecipate-order/validate",
+							"host": [
+								"{{EndPoint}}"
+							],
+							"path": [
+								"api",
+								"v4",
+								"otp",
+								"subs-antecipate-order",
+								"validate"
+							]
+						}
+					},
+					"response": []
 				}
 			],
 			"id": "30435180-25402426-832d-406a-8feb-4ba610dcd6b5"
