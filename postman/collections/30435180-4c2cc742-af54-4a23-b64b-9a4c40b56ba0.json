@@ -285,7 +285,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"contactMethod\": \"wpp\",\n    \"data\": {\n        \"filial\": \"\",\n        \"orderNumber\": \"\"\n    }\n}",
+							"raw": "{\n    \"contactMethod\": \"wpp\",\n    \"identifier\": \"123456\",\n    \"data\": {\n        \"filial\": \"04 0001\",\n        \n    }\n}",
 							"options": {
 								"raw": {
 									"language": "json"
