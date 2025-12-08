@@ -367,7 +367,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"code\": \"867558\"\r\n}",
+							"raw": "{\r\n    \"code\": \"7878\",\r\n    \"identifier\": \"123456789\",\r\n    \"data\": {\r\n        \"filial\": \"04 0001\"\r\n    }\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
