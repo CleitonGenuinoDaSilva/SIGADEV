@@ -297,7 +297,7 @@
 					"response": []
 				},
 				{
-					"name": "validate Copy",
+					"name": "validate Mock",
 					"id": "30435180-8ce1adb9-a747-4078-b80b-9dedac5bd06d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
