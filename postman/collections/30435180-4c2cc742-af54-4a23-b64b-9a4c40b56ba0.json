@@ -203,7 +203,7 @@
 			"name": "Mock",
 			"item": [
 				{
-					"name": "pickup order Copy",
+					"name": "pickup order Mock",
 					"id": "30435180-be9dcbf8-854b-4ced-b25f-d4fbd6cf67de",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
